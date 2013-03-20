@@ -4,7 +4,7 @@
 from setuptools import setup
 
 setup(
-	name = "messytable-jts",
+	name = "messytables-jts",
 	author = "Martin Keegan",
 	author_email = "martin.keegan@okfn.org",
 	version = "0.2",
