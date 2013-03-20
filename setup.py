@@ -12,8 +12,7 @@ setup(
 	url = "",
 	download_url = "",
 	description = "Python library for mapping Messytable cell types to strings",
-	py_modules = "",
-	packages = ["messytables_jts"],
+	py_modules = ["messytables_jts"],
 	install_requires = ["messytables"],
 	scripts = ""
 )

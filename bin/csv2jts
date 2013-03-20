@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import sys
+import messytables_jts
+import messytables
+
+def run():
+    ts = messytables.CSVTableSet.from_fileobj(sys.stdin)
+    rs = ts.tables[0]
+    print messytables_jts.rowset_as_schema(rs).as_json()
+
+if __name__ == '__main__':
+    run()
